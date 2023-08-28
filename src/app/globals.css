@@ -13,7 +13,17 @@ body {
 }
 a{
   text-decoration: none;
-  color: white;  
+  color: white;
+
+}
+
+.light{
+  background-color: white;
+  color: #111;
+}
+.dark {
+  background-color: #111;
+  color: #bbb;
 }
 .container{
   max-width: 1366px;

@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link";
 import styles from './navbar.module.css'
+import DarkModeToggle from "../Darkmode/DarkModeToggle";
 const links = [
     {
       id: 1,
@@ -41,6 +42,7 @@ const Navbar = () => {
     Miko
     </Link>
     <div className={styles.links}>
+      {/* <DarkModeToggle /> */}
      {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}
